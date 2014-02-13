@@ -7,7 +7,6 @@ function main(){
         if (preg_match($regexp, $message))
         {
                 $message = preg_replace($regexp, $replacement, $message);
-                //$bitfield->set($bbcode_data['bbcode_id']);
         }
         return $message;
 }
